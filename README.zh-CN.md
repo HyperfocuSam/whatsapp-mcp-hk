@@ -2,7 +2,9 @@
 
 # WhatsApp MCP（香港版）
 
-让 Claude、Cursor、Codex 等 AI 应用读取并搜索你自己的 WhatsApp 聊天记录，例如 *"这周项目群里我的团队都说了什么？"*
+**专为香港人设计。**
+
+将 WhatsApp 连接到你的 AI 助手（Claude、Codex、Cursor、Grok Bot 或任何支持 MCP 的应用），让它读取和搜索你自己的 WhatsApp 聊天记录，例如：*“总结我这周在项目群组里团队成员都说了什么。”*
 
 如果开启此功能，它也可以代表你发送消息，但前提是它会先向你展示该消息，你同意后才会发出。
 
@@ -19,6 +21,15 @@
 - 任何编程知识
 - 管理员密码
 - 其他软件
+
+## 专为香港打造
+
+这是一个公开的开源项目，专门为香港用户及其使用 WhatsApp 的习惯而设计：
+
+- 说明顺序为：繁体中文、简体中文和英文。
+- 示例中使用香港电话号码：国家代码 852，然后是 8 位数字，例如 `85291234567`。
+- 专为香港职场人士使用的 AI 代理构建。Claude Desktop、Claude Code、Cursor 和 Codex 会自动连接。其他支持 MCP 的代理（如 Grok Bot）可以手动连接（见下方“面向开发者”）。
+- 可放心分享给朋友、学生和客户：除非你开启，否则发送功能保持关闭；每条消息都需要你的 `y` 确认。
 
 ## 开始前必读
 
@@ -213,6 +224,12 @@ cd ..\whatsapp-bridge; .\whatsapp-bridge.exe
 `search_contacts`、`list_chats`、`get_chat`、`list_messages`、`get_message_context`、`get_direct_chat_by_contact`、`get_contact_chats`、`get_last_interaction`、`download_media`，以及发送工具 `send_message`、`send_file` 和 `send_audio_message`（仅在开启发送功能时使用；语音消息需要 ffmpeg）。
 
 </details>
+
+## 搜索关键词
+
+如果你搜索的是以下任何一个，你就找对地方了：
+
+WhatsApp MCP 香港 · WhatsApp 连接 Claude · 将 WhatsApp 与 Codex 集成 · WhatsApp 连接 AI 代理 · Grok Bot 读取 WhatsApp 消息 · AI 读取和总结 WhatsApp 消息 · 通过 Claude 汇总 WhatsApp 群聊 · 在 Mac 上设置 WhatsApp MCP
 
 ## 致谢
 

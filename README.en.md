@@ -2,12 +2,23 @@
 
 # WhatsApp MCP (HK edition)
 
-Let your AI app (Claude, Cursor, Codex…) read and search your own WhatsApp chats, for example *"Summarise what my team said in the project group this week."*
+**Specifically designed for Hong Kong people.**
+
+Connect WhatsApp to your AI agent (Claude, Codex, Cursor, Grok Bot or any app that supports MCP) so it can read and search your own WhatsApp chats, for example *"Summarise what my team said in the project group this week."*
 If you turn it on, it can also send messages for you, but only after it shows you the message and you say yes.
 Everything runs on your own computer. This is a safer, easier version of [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp).
 
 **You need:** a Mac · WhatsApp on your phone · one AI app (Claude Desktop is the easiest) · about 500 MB of free space · 10 minutes.
 **You don't need:** any coding, an admin password, or other software.
+
+## Made for Hong Kong
+
+This is a public, open-source project, adapted for people in Hong Kong and how they use WhatsApp:
+
+- Instructions in Traditional Chinese first, then Simplified Chinese and English.
+- Examples use Hong Kong numbers: country code 852, then the 8-digit number, for example `85291234567`.
+- Built for the AI agents people in Hong Kong use at work. Claude Desktop, Claude Code, Cursor and Codex connect automatically. Other agents that support MCP, such as Grok Bot, can be connected by hand (see "For developers").
+- Safe to share with friends, students and clients: sending is off unless you turn it on, and every message needs your `y`.
 
 ## Before you start: read this
 
@@ -197,6 +208,12 @@ For sending: `$env:WHATSAPP_ALLOW_SEND="1"` before starting. Connect your client
 `search_contacts`, `list_chats`, `get_chat`, `list_messages`, `get_message_context`, `get_direct_chat_by_contact`, `get_contact_chats`, `get_last_interaction`, `download_media`, and the send tools `send_message`, `send_file` and `send_audio_message` (only when sending is on; voice notes need ffmpeg).
 
 </details>
+
+## Search terms
+
+If you searched for one of these, you are in the right place:
+
+how to connect WhatsApp to Claude · WhatsApp MCP Hong Kong · connect WhatsApp to Codex · WhatsApp AI agent · connect WhatsApp to Grok Bot · let AI read my WhatsApp messages · summarise WhatsApp groups with AI · WhatsApp MCP setup on Mac
 
 ## Credits
 
