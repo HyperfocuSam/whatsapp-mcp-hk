@@ -1,3 +1,22 @@
+# Personal data — never commit
+whatsapp-bridge/store/
+store/
+outbox/
 *.db
+*.db-*
+
+# Build output
+whatsapp-bridge/whatsapp-bridge
+whatsapp-bridge/whatsapp-bridge.exe
+.venv/
+__pycache__/
+
+# Local config
 claude_desktop_config.json
 whatsapp.log
+bridge.log
+.DS_Store
+
+# Installer downloads and user lists
+.tools/
+allowed-recipients.txt
